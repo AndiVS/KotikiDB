@@ -102,8 +102,7 @@ func main() {
 	var configPath string
 
 	rootCmd := cobra.Command{
-		Use:     "rest-service-example",
-		Version: "v1.0",
+		
 		Run: func(cmd *cobra.Command, args []string) {
 			run(configPath)
 		},
